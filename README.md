@@ -30,7 +30,7 @@ Save and Document Results:
 Capture screenshots of the waveform and save the simulation logs to include in your report.
 
 Verilog Code for Traffic Light Controller
-
+```
 // Inputs to the module (reg type in testbench)
 reg clk;
 reg reset;
@@ -74,9 +74,9 @@ initial begin
     $monitor("%d\t%b\t%b", $time, reset, lights);
 end
 endmodule
-
+```
 Testbench for Traffic Light Controller
-
+```
 // Inputs to the module (reg type in testbench)
 reg clk;
 reg reset;
@@ -120,6 +120,7 @@ initial begin
     $monitor("%d\t%b\t%b", $time, reset, lights);
 end
 endmodule
+```
 output:![image](https://github.com/user-attachments/assets/eedfed08-b5ff-4d2c-977d-bb8a611a492a)
 
 
