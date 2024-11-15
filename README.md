@@ -1,4 +1,4 @@
-# Traffic Light Controller using Verilog HDL and Testbench Verification
+# 4. Traffic Light Controller using Verilog HDL and Testbench Verification
 
 ## Aim
 
